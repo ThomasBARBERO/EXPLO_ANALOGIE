@@ -1,0 +1,24 @@
+#!/bin/sh
+
+#SBATCH --job-name=analogies_paraphrases
+#SBATCH --output=outfiles/encodage.out
+#SBATCH --error=outfiles/encodage.err
+#SBATCH --mail-user=thomas.barbero@irit.fr
+
+#SBATCH --ntasks=1
+
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=GPUNodes
+#SBATCH --gres=gpu:1
+#SBATCH --gres-flags=enforce-binding
+
+module purge
+module load singularity/3.0.3
+
+container=/logiciels/containerCollections/CUDA10/pytorch.sif
+python=$HOME/TRANSFORMERS/bin/python
+script=encodage.py
+
+srun singularity exec ${container} ${python} ${script}
+
+

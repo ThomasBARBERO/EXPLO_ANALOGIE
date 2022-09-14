@@ -1,0 +1,103 @@
+PARAMETRES EXPERIENCE : 
+ENCODER : SBert	 CLASSIFIER  : MLP
+LEARNING RATE : 0.0001	 EPOCHS : 10
+
+
+\Valid epoch report :
+Average f1 score : 0.6648676852676703
+Average precision : 0.7002053388090349
+Average recall : 0.6361940298507462
+Epoch accuracy : 65.655
+Loss : 25.234001517295837
+--END--
+Epoch 0 training and validation performed in 0.0024312851715108585 hours
+
+\Valid epoch report :
+Average f1 score : 0.704235892783642
+Average precision : 0.720558882235529
+Average recall : 0.7191235059760956
+Epoch accuracy : 69.7375
+Loss : 24.174685299396515
+--END--
+Epoch 1 training and validation performed in 0.002441093788171808 hours
+
+\Valid epoch report :
+Average f1 score : 0.7426672157266956
+Average precision : 0.7581699346405228
+Average recall : 0.6603415559772297
+Epoch accuracy : 73.675
+Loss : 23.104121208190918
+--END--
+Epoch 2 training and validation performed in 0.0024479467584751545 hours
+
+\Valid epoch report :
+Average f1 score : 0.7892062976866466
+Average precision : 0.8353174603174603
+Average recall : 0.759927797833935
+Epoch accuracy : 78.165
+Loss : 21.97170114517212
+--END--
+Epoch 3 training and validation performed in 0.002753297232815789 hours
+
+\Valid epoch report :
+Average f1 score : 0.8278447975052963
+Average precision : 0.8562874251497006
+Average recall : 0.7871559633027523
+Epoch accuracy : 82.1975
+Loss : 20.85478311777115
+--END--
+Epoch 4 training and validation performed in 0.0029898876114748418 hours
+
+\Valid epoch report :
+Average f1 score : 0.8603825220437342
+Average precision : 0.878
+Average recall : 0.8474903474903475
+Epoch accuracy : 85.6875
+Loss : 19.78699380159378
+--END--
+Epoch 5 training and validation performed in 0.0025908127075268163 hours
+
+\Valid epoch report :
+Average f1 score : 0.8882382593962129
+Average precision : 0.9042769857433809
+Average recall : 0.844106463878327
+Epoch accuracy : 88.4925
+Loss : 18.819978922605515
+--END--
+Epoch 6 training and validation performed in 0.0023744880550334024 hours
+
+\Valid epoch report :
+Average f1 score : 0.9114291490923749
+Average precision : 0.9220272904483431
+Average recall : 0.8975332068311196
+Epoch accuracy : 90.9175
+Loss : 17.971312314271927
+--END--
+Epoch 7 training and validation performed in 0.002379493781675895 hours
+
+\Valid epoch report :
+Average f1 score : 0.9289127366911527
+Average precision : 0.9392156862745098
+Average recall : 0.9211538461538461
+Epoch accuracy : 92.725
+Loss : 17.241818070411682
+--END--
+Epoch 8 training and validation performed in 0.0024444645614777175 hours
+
+\Valid epoch report :
+Average f1 score : 0.9438974062965005
+Average precision : 0.958984375
+Average recall : 0.9299242424242424
+Epoch accuracy : 94.29
+Loss : 16.597874402999878
+--END--
+Epoch 9 training and validation performed in 0.0024895632727485566 hours
+
+\Test report :
+Average f1 score : 0.5870112960656311
+Average precision : 0.5759368836291914
+Average recall : 0.6020618556701031
+Epoch accuracy : 59.775
+Loss : 26.87560600042343
+--END--
+Total running time : 0.056485988203850056 hours
