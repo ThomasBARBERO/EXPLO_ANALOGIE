@@ -1,0 +1,10 @@
+python main.py ID_EXP encoder CNN/MLP
+With ID_EXP a number
+encoder : GloVe-mean, bert-base-mean, roberta-base-mean, bert-base-CLS, roberta-base-CLS, bert-large-mean, roberta-large-mean
+
+RESULTS directory structured as follows:
+RESULTS - EXPERIENCE_(ID_EXP) - config.txt
+                              - MLP         - MODELS
+                              - CNN         - MODELS
+                              
+config file example is given, only batch sizes, dropout and learning rate parameters are effective
